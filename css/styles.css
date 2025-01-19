@@ -15,9 +15,10 @@ body > div{
     color: white;
 }
 
-.hero-section{
+.hero-section, .information-section, .quote-section, .call-section{
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
     
     min-height: 360px;
 }
@@ -50,12 +51,13 @@ ul{
     align-items: center;
 }
 .hero-left, .hero-right{
-    min-width: 40vh;
+    flex: 1;
 }
+
 .hero-left{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    gap: 1rem;
 }
 
 .hero-main-text{
@@ -64,6 +66,7 @@ ul{
     color: #F9FAF8;
 }
 .hero-right{
-    box-sizing: border-box;
-    color: lightblue
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
