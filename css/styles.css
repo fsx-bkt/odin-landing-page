@@ -23,6 +23,21 @@ body > div{
     min-height: 360px;
 }
 
+button{
+    max-width: 120px;
+    display: flex;
+    justify-content: center;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 900;
+    background-color: #3882F6;
+    border: #3882F6;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 5px;
+    color: white;
+}
+
 .header{
     display: flex;
     align-items: center;
@@ -148,6 +163,13 @@ ul{
     font-weight: normal;
     margin: 0;
     padding: 0;
+}
+
+.call-button{
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
 }
 
 .footer-section{
