@@ -84,6 +84,7 @@ ul{
 
 .information-images{
     display: flex;
+    justify-content: center;
     gap: 16px
 }
 
@@ -102,3 +103,22 @@ ul{
     border-width: 4px;
     border-radius: 15px;
 }
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+.quote-quoter{
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 900;
+}
+
