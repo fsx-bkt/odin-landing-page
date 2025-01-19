@@ -122,3 +122,30 @@ ul{
     font-weight: 900;
 }
 
+.call-box{
+    margin: auto;
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+    padding: 2rem 4rem;
+    border: #3882F6;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 15px;
+}
+
+.call-text{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+.call-text > p{
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
