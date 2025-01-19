@@ -70,3 +70,35 @@ ul{
     align-items: center;
     justify-content: center;
 }
+
+.information-section{
+    padding-bottom: 64px;
+}
+.information-title{
+    text-align: center;
+    padding: 24px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.information-images{
+    display: flex;
+    gap: 16px
+}
+
+.information-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.information-card-square{
+    width: 125px;
+    height: 125px;
+    border: #3882F6;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 15px;
+}
